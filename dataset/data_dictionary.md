@@ -1,7 +1,6 @@
-## Supply Chain Analysis Data Dictionary
+# Supply Chain Analysis Data Dictionary
 
 This table provides descriptions for each column in the supply chain dataset.
-
 
 | **Column Name** | **Description** |
 |----------------|----------------|
