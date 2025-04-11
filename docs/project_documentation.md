@@ -44,3 +44,131 @@ To build an interactive Power BI report that supports the supply chain team by p
 
 ---
 
+### 📊 Sample Raw Data
+
+<div style="overflow-x:auto;">
+
+<table>
+  <thead>
+    <tr>
+      <th>Product&nbsp;type</th>
+      <th>SKU</th>
+      <th>Price</th>
+      <th>Availability</th>
+      <th>Number&nbsp;of&nbsp;products&nbsp;sold</th>
+      <th>Revenue&nbsp;generated</th>
+      <th>Customer&nbsp;demographics</th>
+      <th>Stock&nbsp;levels</th>
+      <th>Lead&nbsp;times</th>
+      <th>Order&nbsp;quantities</th>
+      <th>Shipping&nbsp;times</th>
+      <th>Shipping&nbsp;carriers</th>
+      <th>Shipping&nbsp;costs</th>
+      <th>Supplier&nbsp;name</th>
+      <th>Location</th>
+      <th>Latitide</th>
+      <th>Longitude</th>
+      <th>Lead&nbsp;time</th>
+      <th>Production&nbsp;volumes</th>
+      <th>Manufacturing&nbsp;lead&nbsp;time</th>
+      <th>Manufacturing&nbsp;costs</th>
+      <th>Inspection&nbsp;results</th>
+      <th>Defect&nbsp;rates</th>
+      <th>Transportation&nbsp;modes</th>
+      <th>Routes</th>
+      <th>Costs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>haircare</td>
+      <td>SKU0</td>
+      <td>69.80800554211577</td>
+      <td>55</td>
+      <td>802</td>
+      <td>8661.996792392383</td>
+      <td>Non-binary</td>
+      <td>58</td>
+      <td>7</td>
+      <td>96</td>
+      <td>4</td>
+      <td>Carrier&nbsp;B</td>
+      <td>2.956572139430807</td>
+      <td>Supplier&nbsp;3</td>
+      <td>Mumbai</td>
+      <td>19.0760</td>
+      <td>72.8777</td>
+      <td>29</td>
+      <td>215</td>
+      <td>29</td>
+      <td>46.27987924050832</td>
+      <td>Pending</td>
+      <td>0.22641036084992516</td>
+      <td>Road</td>
+      <td>Route&nbsp;B</td>
+      <td>187.75207545920392</td>
+    </tr>
+    <tr>
+      <td>skincare</td>
+      <td>SKU1</td>
+      <td>14.843523275084339</td>
+      <td>95</td>
+      <td>736</td>
+      <td>7460.900065445849</td>
+      <td>Female</td>
+      <td>53</td>
+      <td>30</td>
+      <td>37</td>
+      <td>2</td>
+      <td>Carrier&nbsp;A</td>
+      <td>9.71657477143131</td>
+      <td>Supplier&nbsp;3</td>
+      <td>Mumbai</td>
+      <td>19.0760</td>
+      <td>72.8777</td>
+      <td>23</td>
+      <td>517</td>
+      <td>30</td>
+      <td>33.61676895373</td>
+      <td>Pending</td>
+      <td>4.854068026388706</td>
+      <td>Road</td>
+      <td>Route&nbsp;B</td>
+      <td>503.0655791496692</td>
+    </tr>
+    <tr>
+      <td>haircare</td>
+      <td>SKU2</td>
+      <td>11.319683293090566</td>
+      <td>34</td>
+      <td>8</td>
+      <td>9577.74962586873</td>
+      <td>Unknown</td>
+      <td>1</td>
+      <td>10</td>
+      <td>88</td>
+      <td>2</td>
+      <td>Carrier&nbsp;B</td>
+      <td>8.054479261732155</td>
+      <td>Supplier&nbsp;1</td>
+      <td>Mumbai</td>
+      <td>19.0760</td>
+      <td>72.8777</td>
+      <td>12</td>
+      <td>971</td>
+      <td>27</td>
+      <td>30.688019348284204</td>
+      <td>Pending</td>
+      <td>4.580592619199229</td>
+      <td>Air</td>
+      <td>Route&nbsp;C</td>
+      <td>141.92028177151906</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+🔗 Check out the **Data Dictionary** here 👉 [Click Here](https://github.com/Chakradhar-M/Supply-Chain-Analysis-11-24/blob/main/dataset/data_dictionary.md)
+
+---
