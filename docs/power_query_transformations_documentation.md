@@ -1,36 +1,49 @@
 
-
-##  Power Query Transformation Documentation
-
-###  Table: `sc_data`
-
-| **Step**                          | **Description**                                                                                                                                              |
-|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Source**                       | Connected to the Excel file located at `C:\Users\projects\supply_chain_analytics\sc_data.xlsx`.                        |
-| **Navigation**                   | Navigated to the sheet named `"sc_data"` and loaded it into Power Query.                                                                                     |
-| **Promote Headers**              | Promoted the first row to column headers using `Table.PromoteHeaders` to give meaningful names to each column.                                              |
-| **Change Column Types**          | Used `Table.TransformColumnTypes` to assign correct data types (e.g., `Int64.Type`, `type number`, `type text`) to all relevant columns.                    |
-| **Remove Unnecessary Column**    | Removed the unnamed `"Column1"` column using `Table.RemoveColumns`, as it was not required for analysis.                                                    |
-| **Trim Text in SKU Code**        | Applied a transformation on the `SKU_Code` column using `Text.Trim` to remove any leading/trailing spaces.                                                  |
+##  Power Query Transformation Documentation  
 
 
-> The table is clean, with all column headers properly defined, types correctly set, and only relevant data retained for modeling and analysis.
+### `sc_data` Table Transformations
+
+**Source**:  
+`C:\Users\projects\supply_chain_analytics\sc_data.xlsx`
+
+**Transformations Performed:**
+
+1. **Imported Excel Workbook**  
+   - Loaded the `sc_data` worksheet from the specified file path.
+
+2. **Promoted Headers**  
+   - Converted the first row of the dataset into column headers for usability.
+
+3. **Changed Column Data Types**  
+   - Assigned appropriate data types to each column to ensure consistency:
+     - **Whole Number**: `Stock_At_Store`, `Products_Sold_Qty`, `Stock_At_Warehouse`, `Lead_Times`, `Order_Quantities`, `Shipping_Times`, `Supplier_Lead_Time`, `Production_Volumes`, `Manufacturing_Lead_Time`, `Total_Available_Stock`, `Demand`, `Supply`
+     - **Decimal Number**: `Unit_Price`, `Revenue_Generated`, `Shipping_Costs`, `Manufacturing_Costs`, `Defect_Rates`, `Other_Costs`, `Latitude`, `Longitude`
+     - **Text**: `Product_Type`, `SKU_Code`, `Customer_Demographics`, `Shipping_Carrier`, `Supplier_Name`, `Location`, `Inspection_Results`, `Transportation_Mode`, `Shipping_Routes`, `Manufacturing_Site`, `WareHouse_Site`, `Stock_Status`
+
+4. **Removed Unnecessary Column**  
+   - Dropped `Column1`, which was an index or placeholder column not required for analysis.
+
+5. **Trimmed Text in SKU_Code**  
+   - Applied `Text.Trim` on the `SKU_Code` column to remove any leading or trailing spaces, ensuring cleaner joins and filtering downstream.
 
 ---
 
-###  Table: `selected_metric`
+###  `selected_metric` Table Transformations
 
-| **Step**                          | **Description**                                                                                                                                              |
-|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Source**                       | Connected to the Excel file located at `C:\Users\projects\supply_chain_analytics\selected_metric.xlsx`.                |
-| **Navigation**                   | Navigated to the sheet named `"selected_metric"` and loaded it into Power Query.                                                                             |
-| **Promote Headers**              | Promoted the first row to headers using `Table.PromoteHeaders` to provide clear column labels.                                                               |
-| **Change Column Types**          | Assigned data types using `Table.TransformColumnTypes`: `Selected_Metric` as `text` and `Index` as `Int64.Type`.                                            |
+**Source**:  
+`C:\Users\projects\supply_chain_analytics\selected_metric.xlsx`
 
+**Transformations Performed:**
 
+1. **Imported Excel Workbook**  
+   - Loaded the `selected_metric` worksheet from the specified file path.
 
+2. **Promoted Headers**  
+   - Promoted the first row as headers to make column names readable and analyzable.
 
-> This table is ready for use in parameter selection, slicers, or dynamic visuals
-
-
+3. **Changed Column Data Types**  
+   - Assigned the following data types:
+     - **Text**: `Selected_Metric`
+     - **Whole Number**: `Index`
 
