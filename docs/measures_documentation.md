@@ -1,6 +1,6 @@
 
 
-## 📐 Measures Table Documentation
+##  Measures Table Documentation
 
 | **Measure Name**                    | **Measure Function**                                                                 | **DAX Formula** |
 |------------------------------------|--------------------------------------------------------------------------------------|-----------------|
