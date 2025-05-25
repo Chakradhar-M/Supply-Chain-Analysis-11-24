@@ -36,7 +36,7 @@ To build an interactive Power BI report that supports the supply chain team by p
 | 🧭 Resource | 🔗 Access |
 |------------|----------|
 | <img src="https://github.com/Chakradhar-M/PBI_Images/blob/main/Portfolio_Icons/database.png?raw=true" width="20" style="vertical-align:middle;"> **Data Source** | 👉 [Click to View Data Source](https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/challenges/onyx-data-november-2024) |
-| <img src="https://github.com/Chakradhar-M/PBI_Images/blob/main/Portfolio_Icons/power-bi.png?raw=true" width="22" style="vertical-align:middle;"> **Power BI Live Report** | 📊 [View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNDVlMzgwMzMtM2IzMC00OGM1LWJmYTMtM2RmYWZkZmUwZTlmIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9) |
+| <img src="https://github.com/Chakradhar-M/PBI_Images/blob/main/Portfolio_Icons/power-bi.png?raw=true" width="22" style="vertical-align:middle;"> **Power BI Live Report** | 📊 [View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYzhjMjdjZmUtNjRmNC00NTFiLWFjOTctZDBhMzQ5NWRhZTExIiwidCI6IjQ2NTRiNmYxLTBlNDctNDU3OS1hOGExLTAyZmU5ZDk0M2M3YiIsImMiOjl9) |
 | <img src="https://github.com/Chakradhar-M/PBI_Images/blob/main/Portfolio_Icons/youtube.png?raw=true" width="20" style="vertical-align:middle;"> **Project Presentation** | 🎬 [Watch Presentation](#) |
 | <img src="https://github.com/Chakradhar-M/PBI_Images/blob/main/Portfolio_Icons/linkedin.png?raw=true" width="22" style="vertical-align:middle;"> **LinkedIn Post** | 🔗 [Read on LinkedIn](https://www.linkedin.com/posts/chakradhar-mantena_supply-chain-power-bi-report-activity-7266533596125896704-08lj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9y4SkBuDMCUOFBEF1QAO3K3-8MrRRtZZk) |
 
